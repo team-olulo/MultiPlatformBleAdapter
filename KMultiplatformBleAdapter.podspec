@@ -1,13 +1,15 @@
 Pod::Spec.new do |spec|
-  spec.name         = "MultiplatformBleAdapter"
+  spec.name         = "KMultiplatformBleAdapter"
   spec.version      = "0.1.9"
   spec.summary      = "An adapter for RxBluetoothKit that exposes consist API to crossplatform libraries"
 
   spec.description  = <<-DESC
-  An adapter for RxBluetoothKit that exposes consist API to crossplatform libraries 
+  Fork of MultiplatformBleAdapter to support XCode13. 
+  XCode13 will emit error optional type.
+  MultiplatformBleAdapter's latest version is 0.1.8
                   DESC
 
-  spec.homepage     = "https://github.com/Polidea/MultiPlatformBleAdapter"
+  spec.homepage     = "https://github.com/team-olulo/MultiPlatformBleAdapter"
   spec.license      = "Apache License, Version 2.0."
   spec.author             = { "Pawel Scibek" => "pawel.scibek@polidea.com", "Tomasz Bogusz" => "tomasz.bogusz@polidea.com", "Przemyslaw Lenart" => "przemyslaw.lenart@polidea.com" }
   spec.social_media_url   = "https://twitter.com/polidea"
